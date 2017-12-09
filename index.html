@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="reset.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="css/lrtk.css">
+
+</head>
+<body>
+	<header style="margin-top: -10px;">
+		<div class="center">
+			<ul>
+				<li><img src="images/globalheader_logo.png"></li>
+				<li><a href="homework.html">商店</a></li>
+				<li><a href="homework2.html">社区</a></li>
+				<li><a href="homework3.html">关于</a></li>
+				<li><a href="homework4.html">服务</a></li>
+			</ul>
+		</div>
+	</header>
+	<article id="banner">
+
+		<div class="center">
+			<ul>
+				<li>您的商店
+					<ul>
+						<li><div>123</div></li>
+						<li><div>123</div></li>
+						<li><div>123</div></li>
+						
+					</ul>
+				</li>
+				<li>游戏
+                	<ul>
+						<li><div>123</div></li>
+						<li><div>123</div></li>
+						<li><div>123</div></li>
+						
+					</ul>
+                </li>
+				<li>软件
+                	<ul>
+						<li><div>123</div></li>
+						<li><div>123</div></li>
+						<li><div>123</div></li>
+						
+					</ul>
+                </li>
+				<li>硬件
+                <ul>
+						<li><div>123</div></li>
+						<li><div>123</div></li>
+						<li><div>123</div></li>
+						
+					</ul>
+                </li>
+				<li>视频
+                <ul>
+						<li><div>123</div></li>
+						<li><div>123</div></li>
+						<li><div>123</div></li>
+						
+					</ul>
+                </li>
+				<li>新闻</li>
+				<li class="search"><input type="text" placeholder="搜索商店"></li>
+			</ul>
+			
+
+			
+		</div>
+
+	</article>
+    <div class="ban2">
+    	<div class="center">
+ 
+    		<p>精选和推荐</p>
+            
+<!-- 代码 开始 -->
+	 <div class="container-fluid text-center">
+                    <div class="header">
+                        <img class="headerImg"
+                             src="images/header.jpg"
+                             data-slideshow='images/img1.jpg|images/img2.jpg|images/img3.jpg|images/img4.jpg|images/img5.jpg'>
+                    </div>
+                </div>
+                <script src="js/jquery.min.js"></script>
+                <script src="js/jquery.hammer-full.min.js"></script>
+                <script src="js/plugin.js"> </script>
+                <script src="js/lrtk.js"></script>
+                <script>
+                var links = ["http://www.lanrentuku.com", "http://www.lanrentuku.com/lanren/", "http://www.lanrentuku.com/js/biaoqian.html", "http://www.lanrentuku.com/js/xiangce.html"];
+                $(".slide").click(function(){
+                    var index = $(this).attr('index');
+                    if(index === undefined) {
+                        window.open(links[0]);
+                    } else {
+                        window.open(links[(parseInt(index)+1)]);
+                    }
+                
+                });
+                </script>
+<!-- 代码 结束 -->
+
+			<br>
+
+			<p>特别优惠</p>
+			<div class="sale">	
+			<ul>
+				<li><img src="images/ban3 (1).jpg">
+				<p>周末特惠</p>
+				<div class="time">
+				周日下午1 点（太平洋时间）之前免费玩
+				</div>
+				<div class="sale1 fl">
+					-40%
+				</div>
+				<div class="sale2 fl">
+					<div class="del">168$</div>
+					<div class="org">100$</div>
+				</div>
+
+				</li>
+				<li><img src="images/ban3 (2).jpg">
+				<p>周末特惠</p>
+				<div class="time">
+				特惠于周一上午10点止(太平洋时间)
+				</div>
+				<div class="sale1 fl">
+					-50%
+				</div>
+				<div class="sale2 fl">
+					<div class="del">112$</div>
+					<div class="org">56$</div>
+				</div>
+				</li>
+				<li class="end"> 
+				<img src="images/ban3 (3).jpg">
+				<p>周末特惠</p>
+				<div class="time">
+				周日下午1 点（太平洋时间）之前免费玩
+				</div>
+				<div class="sale1 fl">
+					-60%
+				</div>
+				<div class="sale2 fl">
+					<div class="del">190$</div>
+					<div class="org">100$</div>
+				</div>
+				</li>
+			</ul>
+			</div>
+
+			<p>浏览Steam</p>
+			<div class="browse">
+				<ul>
+					<li>新品</li>
+					<li>优惠</li>
+					<li>免费游戏</li>
+					<li class="end">按用户标签</li>
+				</ul>
+			</div>
+
+			<p>STEAM 鉴赏家</p>
+			<p class="s">通过 Steam 鉴赏家探索新游戏。关注鉴赏家并查看其推荐的游戏。</p>
+ 			<ul class="judge">
+ 				<li>
+ 					<img src="images/judge (1).jpg" alt="">
+					<div class="name">
+						中国鉴赏家同好会
+					</div>
+					<br>
+					<div class="content">
+						无丝竹之乱耳,无案牍之劳形
+					</div>
+ 				</li>
+				<li>
+					<img src="images/judge (2).jpg" alt="">
+					<div class="name">
+						嗶哩嗶哩 乾杯~
+					</div>
+					<br>
+					<div class="content">
+						独立游戏 艺术
+					</div>
+				</li>
+				<li class="end">
+					<img src="images/judge (3).jpg" alt="">
+					<div class="name">
+						中国玩家鉴赏组
+					</div>
+					<br>
+					<div class="content">
+						能为你实时推荐自你关注以来大部分大作品的游戏测评.
+					</div>
+				</li>
+ 			</ul>
+ 			<ul class="judge">
+ 				<li>
+ 					<img src="images/judge (4).jpg" alt="">
+					<div class="name">
+						散人games
+					</div>
+					<br>
+					<div class="content">
+						散人games
+					</div>
+ 				</li>
+				<li>
+					<img src="images/judge (5).jpg" alt="">
+					<div class="name">
+						游戏特攻组
+					</div>
+					<br>
+					<div class="content">
+						欢迎大家关注我们，我们会努力做出更好的游戏评测。
+					</div>
+				</li>
+				<li class="end">
+					<img src="images/judge (6).jpg" alt="">
+					<div class="name">
+						国人交流组
+					</div>
+					<br>
+					<div class="content">
+						这些游戏值得一玩！
+					</div>
+				</li>
+ 			</ul>
+ 		</div>
+    </div>
+
+    <div id="content">
+    	<div class="center">
+    		<ul class="title">
+    			<li>新品与热门商品</li>
+    			
+    		</ul>
+
+    		<br>
+    		<br>
+
+    		<ul class="content rel">
+    			<li>
+    				<img src="images/capsule_184x69_001.jpg" alt="">
+    				<div class="info">
+    					DisTrust
+
+						<br>
+						<img src="images/icon_platform_win.png" alt="">
+						<div class="price" style="float: right;">
+							<div class="sale">
+								-20%
+							</div>
+							<span style="text-decoration: line-through; color: #">40¥</span>
+							¥32
+						</div>
+						<br>
+						<span>独立,生存,策略,冒险</span>
+						
+    				</div>
+    				<div class="nextofinfo" >
+    					<div class="title">
+    						DisTrust
+    					</div>
+    					<div class="remark">
+    						总体用户评测: <br>
+    						<span>特别好评 (209)</span>
+    					</div>
+						<img src="images/in2.jpg" alt="">
+						<img src="images/in2.jpg" alt="">
+						<img src="images/in2.jpg" alt="">
+						<img src="images/in2.jpg" alt="">
+
+    				</div>
+    			</li>
+    			<li>
+    				<img src="images/capsule_184x69_002.jpg" alt="">
+    				<div class="info">
+    					The Chronicles of Dragon Wing - Reborn
+						<br>
+						<img src="images/icon_platform_win.png" alt="">
+						<div class="price" style="float: right;">
+							
+							¥68
+						</div>
+						<br>
+						<span>生存,大型多人在线,沙盒,开放世界</span>
+    				</div>
+    				<div class="nextofinfo">
+    					<div class="title">
+    						DisTrust
+    					</div>
+    					<div class="remark">
+    						总体用户评测: <br>
+    						<span>特别好评 (209)</span>
+    					</div>
+						<img src="images/in1.jpg" alt="">
+						<img src="images/in1.jpg" alt="">
+						<img src="images/in1.jpg" alt="">
+						<img src="images/in1.jpg" alt="">
+
+    				</div>
+    			</li>
+    			<li>
+    				<img src="images/capsule_184x69_003.jpg" alt="">
+    				<div class="info">
+    					The Escapists2
+						<br>
+						<img src="images/icon_platform_win.png" alt="">
+						<div class="price" style="float: right;">
+							
+							¥68
+						</div>
+						<br>
+						<span>策略,多人,画素风格,合作</span>
+    				</div>
+    				<div class="nextofinfo">
+    					<div class="title">
+    						DisTrust
+    					</div>
+    					<div class="remark">
+    						总体用户评测: <br>
+    						<span>特别好评 (209)</span>
+    					</div>
+						<img src="images/in3.jpg" alt="">
+						<img src="images/in3.jpg" alt="">
+						<img src="images/in3.jpg" alt="">
+						<img src="images/in3.jpg" alt="">
+
+    				</div>
+    			</li>
+    			<li>
+    				<img src="images/capsule_184x69_004.jpg" alt="">
+    				<div class="info">
+    					Tree of life
+						<br>
+						<img src="images/icon_platform_win.png" alt="">
+						<div class="price" style="float: right;">
+							<div class="sale">
+								-31%
+							</div>
+							<span style="text-decoration: line-through; color: #7193A6">68¥</span>
+							¥47
+						</div>
+						<br>
+						<span>生存,大型多人在线,沙盒,开放世界</span>
+    				</div>
+    				<div class="nextofinfo">
+    					<div class="title">
+    						DisTrust
+    					</div>
+    					<div class="remark">
+    						总体用户评测: <br>
+    						<span>特别好评 (209)</span>
+    					</div>
+						<img src="images/in6.jpg" alt="">
+						<img src="images/in6.jpg" alt="">
+						<img src="images/in6.jpg" alt="">
+						<img src="images/in6.jpg" alt="">
+
+    				</div>
+    			</li>
+    			<li>
+    				<img src="images/capsule_184x69_005.jpg" alt="">
+    				<div class="info">
+    					Yet Another Zombie Defense HD
+						<br>
+						<img src="images/icon_platform_win.png" alt="">
+						<div class="price" style="float: right;">
+							
+							¥18
+						</div>
+						<br>
+						<span>动作,独立,Gore,暴力</span>
+    				</div>
+    				<div class="nextofinfo">
+    					<div class="title">
+    						DisTrust
+    					</div>
+    					<div class="remark">
+    						总体用户评测: <br>
+    						<span>特别好评 (209)</span>
+    					</div>
+						<img src="images/in7.jpg" alt="">
+						<img src="images/in7.jpg" alt="">
+						<img src="images/in7.jpg" alt="">
+						<img src="images/in7.jpg" alt="">
+
+    				</div>
+    			</li>
+    			<li>
+    				<img src="images/capsule_184x69_006.jpg" alt="">
+    				<div class="info">
+    					NARUTO:Ultimate Ninja STORM
+						<br>
+						<img src="images/icon_platform_win.png" alt="">
+						<div class="price" style="float: right;">
+							
+							¥108
+						</div>
+						<br>
+						<span>独动作,冒险,日本动画</span>
+    				</div>
+    				<div class="nextofinfo">
+    					<div class="title">
+    						DisTrust
+    					</div>
+    					<div class="remark">
+    						总体用户评测: <br>
+    						<span>特别好评 (209)</span>
+    					</div>
+						<img src="images/in4.jpg" alt="">
+						<img src="images/in4.jpg" alt="">
+						<img src="images/in4.jpg" alt="">
+						<img src="images/in4.jpg" alt="">
+
+    				</div>
+    			</li>
+    			<li>
+    				<img src="images/capsule_184x69_007.jpg" alt="">
+    				<div class="info">
+    					Cat Quest
+						<br>
+						<img src="images/icon_platform_win.png" alt="">
+						<div class="price" style="float: right;">
+							
+							¥42
+						</div>
+						<br>
+						<span>动作,角色扮演,独立,冒险</span>
+    				</div>
+    				<div class="nextofinfo">
+    					<div class="title">
+    						DisTrust
+    					</div>
+    					<div class="remark">
+    						总体用户评测: <br>
+    						<span>特别好评 (209)</span>
+    					</div>
+						<img src="images/in8.jpg" alt="">
+						<img src="images/in8.jpg" alt="">
+						<img src="images/in8.jpg" alt="">
+						<img src="images/in8.jpg" alt="">
+
+    				</div>
+    			</li>
+    			<li>
+    				<img src="images/capsule_184x69_008.jpg" alt="">
+    				<div class="info">
+    					SKY ROGUE
+						<br>
+						<img src="images/icon_platform_win.png" alt="">
+						<div class="price" style="float: right;">
+							<div class="sale">
+								-25%
+							</div>
+							<span style="text-decoration: line-through; color: #7193A6">68¥</span>
+							¥51
+						</div>
+						<br>
+						<span>动作,模拟,独立,飞行</span>
+    				</div>
+    				<div class="nextofinfo">
+    					<div class="title">
+    						DisTrust
+    					</div>
+    					<div class="remark">
+    						总体用户评测: <br>
+    						<span>特别好评 (209)</span>
+    					</div>
+						<img src="images/in9.jpg" alt="">
+						<img src="images/in9.jpg" alt="">
+						<img src="images/in9.jpg" alt="">
+						<img src="images/in9.jpg" alt="">
+
+    				</div>
+    			</li>
+    			<li>
+    				<img src="images/capsule_184x69_009.jpg" alt="">
+    				<div class="info">
+    					F1 2017
+						<br>
+						<img src="images/icon_platform_win.png" alt="">
+						<div class="price" style="float: right;">
+							
+							¥158
+						</div>
+						<br>
+						<span>竞速.,体育,模拟,多人</span>
+    				</div>
+    				<div class="nextofinfo">
+    					<div class="title">
+    						DisTrust
+    					</div>
+    					<div class="remark">
+    						总体用户评测: <br>
+    						<span>特别好评 (209)</span>
+    					</div>
+						<img src="images/in5.jpg" alt="">
+						<img src="images/in5.jpg" alt="">
+						<img src="images/in5.jpg" alt="">
+						<img src="images/in5.jpg" alt="">
+
+    				</div>
+    			</li>
+
+    		</ul>
+    	</div>
+    </div>
+    <footer>
+		<div class="center">
+			<ul>
+				<li>关于Steam</li>
+				<li>关于VALVE</li>
+				<li>帮助</li>
+				<li>动态信息</li>
+			</ul>
+			<div class="clear"></div>
+			<div class="crp">
+				<img src="images/logo_valve_footer_002.png" alt="">		
+				<div class="content">
+				Valve Software©2017 Valve Corporation。保留所有权利。所有商标均为其在美国及其它国家/地区的各自持有者所有。<br>
+				所有的价格均已包含增值税（如适用）。   隐私政策   |   法律信息   |   Steam 用户协议   |   退款
+				</div>
+			</div>
+			<div class="clear"></div>
+			<div class="bottom2">
+			<ul>
+				<li>关于 Valve</li>
+				<li>Steamworks</li>
+				<li>工作</li>
+				<li>Steam 分销</li>
+				<li>礼物卡 </li>
+				<li>Steam</li>
+				<li>@steam_games </li>
+			</ul>
+		</div>
+	</footer>
+</body>
+</html>
